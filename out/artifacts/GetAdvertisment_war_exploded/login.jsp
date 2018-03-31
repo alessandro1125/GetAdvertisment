@@ -196,12 +196,13 @@
                                     }
 
                                     //Redirect nella area personale (redirect senza URL)
-                                    HttpSession session = request.getSession();
-                                    session.setAttribute("email", email);
-                                    session.setAttribute("password", password);
+                                    //HttpSession session = request.getSession();
+                                    request.setAttribute("email", email);
+                                    request.setAttribute("password", password);
                                     RequestDispatcher dispatcher;
                                     dispatcher = request.getRequestDispatcher("uids_dashboard.jsp");
                                     dispatcher.forward(request, response);
+
 
                                     /*Send redirect with attributes
                                     HttpSession session = request.getSession();
