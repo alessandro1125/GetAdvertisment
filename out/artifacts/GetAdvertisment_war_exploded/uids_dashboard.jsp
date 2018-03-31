@@ -13,7 +13,7 @@
         %>
         <title>UID dashboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="stile-1.css?<%= time %>" rel="stylesheet" type="text/css">
+        <link href="/stile-1.css?<%= time %>" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
     </head>
     <body style="position: absolute; min-width: 1000px; width: 100%">
