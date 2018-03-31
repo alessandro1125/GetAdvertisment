@@ -14,13 +14,13 @@ public class Login extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp){
-        System.out.println("Get method called");
+        /*System.out.println("Get method called");
         try {
             RequestDispatcher view = req.getRequestDispatcher("login.jsp");
             view.forward(req,resp);
         }catch (Exception e){
             e.printStackTrace();
-        }
+        }*/
     }
 
     @Override
