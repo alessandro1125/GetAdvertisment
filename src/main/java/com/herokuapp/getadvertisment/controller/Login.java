@@ -16,7 +16,7 @@ public class Login extends HttpServlet{
     protected void doGet(HttpServletRequest req, HttpServletResponse resp){
         System.out.println("Get method called");
         try {
-            RequestDispatcher view = req.getRequestDispatcher("login.jsp");
+            RequestDispatcher view = req.getRequestDispatcher("sign_in.jsp");
             view.forward(req,resp);
         }catch (Exception e){
             e.printStackTrace();
