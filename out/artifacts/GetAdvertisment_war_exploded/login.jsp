@@ -411,6 +411,7 @@
                                     //Redirect nella area personale (redirect senza URL)
                                     request.setAttribute("email", email);
                                     request.setAttribute("password", password);
+                                    request.setAttribute("authorization", "authorized");
                                     RequestDispatcher dispatcher;
                                     dispatcher = request.getRequestDispatcher("uids_dashboard.jsp");
                                     dispatcher.forward(request, response);

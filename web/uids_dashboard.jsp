@@ -231,6 +231,10 @@
         </style>
     </head>
     <body style="position: absolute; min-width: 1000px; width: 100%">
+        <%
+            if (((String)request.getAttribute("authorization")).equals("authorize")){
+
+        %>
         <div id="toolbar" class="form-style-8" style="font-family: 'Open Sans Condensed', sans-serif;
         min-width: 1000px;
         max-width: 100%;
@@ -258,5 +262,13 @@
                 }
             </script>
         </div>
+        <%
+            }else {
+                //Se non sono autorizzato reindirizzo l'utente alla home
+                String redirectURL = "/";
+                response.sendRedirect(redirectURL);
+            }
+
+        %>
     </body>
 </html>
