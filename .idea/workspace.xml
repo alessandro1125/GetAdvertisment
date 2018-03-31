@@ -73,12 +73,12 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="794">
               <caret line="325" column="30" lean-forward="false" selection-start-line="325" selection-start-column="30" selection-end-line="325" selection-end-column="30" />
               <folding>
-                <marker date="1522534875331" expanded="true" signature="18958:18997" ph="SELECT email... users" />
-                <marker date="1522534875331" expanded="true" signature="21171:21201" ph="SELECT missi... missingValue" />
-                <marker date="1522534875331" expanded="true" signature="23314:23407" ph="INSERT INTO missingValue... " />
+                <marker date="1522535227186" expanded="true" signature="18900:18939" ph="SELECT email... users" />
+                <marker date="1522535227186" expanded="true" signature="21113:21143" ph="SELECT missi... missingValue" />
+                <marker date="1522535227186" expanded="true" signature="23256:23349" ph="INSERT INTO missingValue... " />
               </folding>
             </state>
           </provider>
@@ -97,8 +97,8 @@
       <file leaf-file-name="index_exemple.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index_exemple.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <marker date="1519945811721" expanded="true" signature="699:919" ph="INSERT INTO users... " />
                 <marker date="1519945811721" expanded="true" signature="1738:2371" ph="CREATE TABLE... users" />
@@ -165,8 +165,8 @@
         <option value="$PROJECT_DIR$/web/sign_in.jsp" />
         <option value="$PROJECT_DIR$/web/uids_dashboard.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Home.java" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Login.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
       </list>
     </option>
   </component>
@@ -278,19 +278,6 @@
               <item name="GetAdvertisment" type="b2602c69:ProjectViewProjectNode" />
               <item name="GetAdvertisment" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GetAdvertisment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GetAdvertisment" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GetAdvertisment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GetAdvertisment" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GetAdvertisment" type="b2602c69:ProjectViewProjectNode" />
@@ -526,16 +513,15 @@
       <workItem from="1522502320515" duration="2351000" />
       <workItem from="1522516925147" duration="4670000" />
       <workItem from="1522521611388" duration="6272000" />
-      <workItem from="1522527984365" duration="390000" />
+      <workItem from="1522527984365" duration="605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13683000" />
+    <option name="totallyTimeSpent" value="13898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -550,7 +536,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -618,9 +604,9 @@
         <state relative-caret-position="5627">
           <caret line="331" column="57" lean-forward="false" selection-start-line="331" selection-start-column="57" selection-end-line="331" selection-end-column="57" />
           <folding>
-            <marker date="1522534875331" expanded="true" signature="18958:18997" ph="SELECT email... users" />
-            <marker date="1522534875331" expanded="true" signature="21171:21201" ph="SELECT missi... missingValue" />
-            <marker date="1522534875331" expanded="true" signature="23314:23407" ph="INSERT INTO missingValue... " />
+            <marker date="1522535227186" expanded="true" signature="18900:18939" ph="SELECT email... users" />
+            <marker date="1522535227186" expanded="true" signature="21113:21143" ph="SELECT missi... missingValue" />
+            <marker date="1522535227186" expanded="true" signature="23256:23349" ph="INSERT INTO missingValue... " />
           </folding>
         </state>
       </provider>
@@ -746,9 +732,9 @@
         <state relative-caret-position="3451">
           <caret line="203" column="0" lean-forward="true" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
           <folding>
-            <marker date="1522534875331" expanded="true" signature="18958:18997" ph="SELECT email... users" />
-            <marker date="1522534875331" expanded="true" signature="21171:21201" ph="SELECT missi... missingValue" />
-            <marker date="1522534875331" expanded="true" signature="23314:23407" ph="INSERT INTO missingValue... " />
+            <marker date="1522535227186" expanded="true" signature="18900:18939" ph="SELECT email... users" />
+            <marker date="1522535227186" expanded="true" signature="21113:21143" ph="SELECT missi... missingValue" />
+            <marker date="1522535227186" expanded="true" signature="23256:23349" ph="INSERT INTO missingValue... " />
           </folding>
         </state>
       </provider>
@@ -797,9 +783,9 @@
         <state relative-caret-position="289">
           <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
-            <marker date="1522534875331" expanded="true" signature="18958:18997" ph="SELECT email... users" />
-            <marker date="1522534875331" expanded="true" signature="21171:21201" ph="SELECT missi... missingValue" />
-            <marker date="1522534875331" expanded="true" signature="23314:23407" ph="INSERT INTO missingValue... " />
+            <marker date="1522535227186" expanded="true" signature="18900:18939" ph="SELECT email... users" />
+            <marker date="1522535227186" expanded="true" signature="21113:21143" ph="SELECT missi... missingValue" />
+            <marker date="1522535227186" expanded="true" signature="23256:23349" ph="INSERT INTO missingValue... " />
           </folding>
         </state>
       </provider>
@@ -883,19 +869,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/dashboard.java" />
-    <entry file="file://$PROJECT_DIR$/web/index_exemple.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <marker date="1519945811721" expanded="true" signature="699:919" ph="INSERT INTO users... " />
-            <marker date="1519945811721" expanded="true" signature="1738:2371" ph="CREATE TABLE... users" />
-            <marker date="1519945811721" expanded="true" signature="3245:3268" ph="SELECT email... users" />
-            <marker date="1519945811721" expanded="true" signature="4589:4616" ph="DELETE FROM `Users`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/sign_in.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -909,14 +882,6 @@
             <marker date="1522525059491" expanded="true" signature="46897:46920" ph="SELECT email... users" />
             <marker date="1522525059491" expanded="true" signature="47918:47948" ph="SELECT email... users" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/launch/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,6 +918,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="325" column="30" lean-forward="false" selection-start-line="325" selection-start-column="30" selection-end-line="325" selection-end-column="30" />
+          <folding>
+            <marker date="1522535227186" expanded="true" signature="18900:18939" ph="SELECT email... users" />
+            <marker date="1522535227186" expanded="true" signature="21113:21143" ph="SELECT missi... missingValue" />
+            <marker date="1522535227186" expanded="true" signature="23256:23349" ph="INSERT INTO missingValue... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index_exemple.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1519945811721" expanded="true" signature="699:919" ph="INSERT INTO users... " />
+            <marker date="1519945811721" expanded="true" signature="1738:2371" ph="CREATE TABLE... users" />
+            <marker date="1519945811721" expanded="true" signature="3245:3268" ph="SELECT email... users" />
+            <marker date="1519945811721" expanded="true" signature="4589:4616" ph="DELETE FROM `Users`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Home.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -961,15 +951,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/launch/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="325" column="30" lean-forward="false" selection-start-line="325" selection-start-column="30" selection-end-line="325" selection-end-column="30" />
-          <folding>
-            <marker date="1522534875331" expanded="true" signature="18958:18997" ph="SELECT email... users" />
-            <marker date="1522534875331" expanded="true" signature="21171:21201" ph="SELECT missi... missingValue" />
-            <marker date="1522534875331" expanded="true" signature="23314:23407" ph="INSERT INTO missingValue... " />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
