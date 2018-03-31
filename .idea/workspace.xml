@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web:war exploded" />
+      <artifact name="GetAdvertisment:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -72,6 +72,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="stile-1.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/stile-1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index_exemple.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index_exemple.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,7 +115,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uids_dashboard.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uids_dashboard.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/uids_dashboard.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -189,11 +199,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -220,6 +229,32 @@
             <path>
               <item name="GetAdvertisment" type="b2602c69:ProjectViewProjectNode" />
               <item name="GetAdvertisment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GetAdvertisment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GetAdvertisment" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GetAdvertisment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GetAdvertisment" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GetAdvertisment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GetAdvertisment" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="GetAdvertisment_war_exploded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GetAdvertisment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GetAdvertisment" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="GetAdvertisment_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GetAdvertisment" type="b2602c69:ProjectViewProjectNode" />
@@ -275,20 +310,20 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\Sync\Heroku Projects\GitHub\GetAdvertisment\repo\assetx\assetx\1.0" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Sync\Heroku Projects\GitHub\GetAdvertisment" />
       <recent name="G:\Sync\Heroku Projects\GitHub\GetAdvertisment\web" />
       <recent name="G:\Sync\Heroku Projects\GitHub\GetAdvertisment\repo" />
       <recent name="G:\Sync\Heroku Projects\GitHub\GetAdvertisment\repo\assetx\assetx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Sync\Heroku Projects\GitHub\GetAdvertisment\repo\assetx\assetx\1.0" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -484,15 +519,15 @@
       <updated>1522502316938</updated>
       <workItem from="1522502320515" duration="2351000" />
       <workItem from="1522516925147" duration="4670000" />
-      <workItem from="1522521611388" duration="1003000" />
+      <workItem from="1522521611388" duration="2508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8024000" />
+    <option name="totallyTimeSpent" value="9529000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -508,7 +543,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42588726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -645,6 +680,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -693,13 +729,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/stile-1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -812,12 +841,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/stile-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="jpa-descriptors" />
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
           <last-edited>GetAdvertisment:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
