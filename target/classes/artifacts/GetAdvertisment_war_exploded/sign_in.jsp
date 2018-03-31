@@ -449,7 +449,7 @@
                         giorno = request.getParameter("giorno");
                     }catch (NullPointerException e){;
                         e.printStackTrace();
-                        String redirectURL = "login.jsp?action=0&message=" +
+                        String redirectURL = "login?action=0&message=" +
                                 new String(Base64.getEncoder().encode(("An error has occurred " +
                                         ERROR_CODE_PAGE + "x01").getBytes()));
                         response.sendRedirect(redirectURL);
@@ -463,7 +463,7 @@
                     String passkeyUrlEncoded = URLEncoder.encode(new String(Base64.getEncoder().encode(passkey.getBytes())), "UTF-8");
                     String emailUrlEncoded = URLEncoder.encode(new String(Base64.getEncoder().encode(email.getBytes())), "UTF-8");
                     String text = "To confirm your Get Advertisment Account click to the following link: " +
-                            "https://getadvertisment.herokuapp.com/sign_in.jsp?action=2&passkey=" + passkeyUrlEncoded
+                            "https://getadvertisment.herokuapp.com/sign_in?action=2&passkey=" + passkeyUrlEncoded
                             + "&email=" + emailUrlEncoded;
                     if(sendEmail(email, text, "User confirmation")){
 
