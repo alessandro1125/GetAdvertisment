@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(
-        name = "Login",
+        name = "LoginServlet",
         urlPatterns = {"/login/*"}
 )
 public class Login extends HttpServlet{
@@ -16,14 +16,13 @@ public class Login extends HttpServlet{
     protected void doGet(HttpServletRequest req, HttpServletResponse resp){
         System.out.println("Get method called");
         try {
-            RequestDispatcher view = req.getRequestDispatcher("sign_in.jsp");
+            RequestDispatcher view = req.getRequestDispatcher("login.jsp");
             view.forward(req,resp);
         }catch (Exception e){
             e.printStackTrace();
         }
     }
-
-    @Override
+    
     protected void doPost(HttpServletRequest req, HttpServletResponse resp){
         System.out.println("Post method called");
         doGet(req,resp);
