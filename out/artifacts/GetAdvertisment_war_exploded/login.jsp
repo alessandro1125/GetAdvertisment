@@ -16,7 +16,7 @@
         %>
         <title>Get Advertisment</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="formstyle.css?<%= time %>" rel="stylesheet" type="text/css">
+        <link href="stile-1.css?<%= time %>" rel="stylesheet" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
     </head>
@@ -196,18 +196,12 @@
                                     }
 
                                     //Redirect nella area personale (redirect senza URL)
-                                    //HttpSession session = request.getSession();
                                     request.setAttribute("email", email);
                                     request.setAttribute("password", password);
                                     RequestDispatcher dispatcher;
                                     dispatcher = request.getRequestDispatcher("uids_dashboard.jsp");
                                     dispatcher.forward(request, response);
 
-
-                                    /*Send redirect with attributes
-                                    HttpSession session = request.getSession();
-                                    session.setAttribute("helloWorld", "Hello world");
-                                    response.sendRedirect("/dashboard");*/
                                     break;
 
                                 case 1:
