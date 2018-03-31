@@ -14,7 +14,6 @@ public class Login extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp){
-        System.out.println("Get method called");
         try {
             RequestDispatcher view = req.getRequestDispatcher("login.jsp");
             view.forward(req,resp);
@@ -25,7 +24,6 @@ public class Login extends HttpServlet{
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp){
-        System.out.println("Post method called");
         doGet(req,resp);
     }
 }

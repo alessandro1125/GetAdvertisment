@@ -235,6 +235,9 @@
     </head>
     <body class="form-style-8">
 
+        <%= request.getAttribute("email")%>
+        <%= request.getAttribute("authorization")%>
+
         <%
             //Controllo l'action
             int action = 0;
