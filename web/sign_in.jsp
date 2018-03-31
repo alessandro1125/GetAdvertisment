@@ -259,7 +259,7 @@
         <div class="form-style-8">
             <h2>Sign In</h2>
             <p id="reportMessage" style="display: none"></p>
-            <form action="sign_in.jsp?action=1" method="post">
+            <form action="sign_in?action=1" method="post">
                 <input type="text" id="nome" name="nome" placeholder="Name...">
                 <input type="text" id="cognome" name="cognome" placeholder="Surname..." style="display: none">
                 <input type="email" id="email" name="email" placeholder="Email..." style="display: none">
@@ -492,7 +492,7 @@
                                 e1.printStackTrace();
                             }
                             System.out.println("Errore nella connessione con il batabase " + ERROR_CODE_PAGE + "x02");
-                            String redirectURL = "login.jsp?action=0&message=" +
+                            String redirectURL = "login?action=0&message=" +
                                     new String(Base64.getEncoder().encode(("An error has occurred " +
                                             ERROR_CODE_PAGE + "x02").getBytes()));
                             response.sendRedirect(redirectURL);
@@ -517,7 +517,7 @@
                                     e1.printStackTrace();
                                 }
                                 System.out.println("Errore nella scrittura nel database "+ ERROR_CODE_PAGE + "x03");
-                                String redirectURL = "login.jsp?action=0&message=" +
+                                String redirectURL = "login?action=0&message=" +
                                         new String(Base64.getEncoder().encode(("An error has occurred " +
                                                 ERROR_CODE_PAGE + "x03").getBytes()));
                                 response.sendRedirect(redirectURL);
@@ -529,7 +529,7 @@
                                 } catch (SQLException e1) {
                                     e1.printStackTrace();
                                 }
-                            String redirectURL = "login.jsp?action=0&message=" +
+                            String redirectURL = "login?action=0&message=" +
                                     new String(Base64.getEncoder().encode(("User already registered".getBytes())));
                             response.sendRedirect(redirectURL);
                         }
@@ -540,7 +540,7 @@
                         }
                     }else {
                         System.out.println("Errore nell'invio dell'email di conferma " + ERROR_CODE_PAGE + "x04");
-                        String redirectURL = "login.jsp?action=0&message=" +
+                        String redirectURL = "login?action=0&message=" +
                                 new String(Base64.getEncoder().encode(("An error has occurred " +
                                         ERROR_CODE_PAGE + "x04").getBytes()));
                         response.sendRedirect(redirectURL);
@@ -557,7 +557,7 @@
                     }catch (NullPointerException e){
                         e.printStackTrace();
                         System.out.println("Errore nella recezione della passkey " + ERROR_CODE_PAGE + "x05");
-                        String redirectURL = "login.jsp?action=0&message=" +
+                        String redirectURL = "login?action=0&message=" +
                                 new String(Base64.getEncoder().encode(("An error has occurred " +
                                         ERROR_CODE_PAGE + "x05").getBytes()));
                         response.sendRedirect(redirectURL);
@@ -575,7 +575,7 @@
                             } catch (SQLException e1) {
                                 e1.printStackTrace();
                             }
-                            String redirectURL = "login.jsp?action=0&message=" +
+                            String redirectURL = "login?action=0&message=" +
                                     new String(Base64.getEncoder().encode("User Correctly activated".getBytes()));
                             response.sendRedirect(redirectURL);
                         }else {
@@ -585,7 +585,7 @@
                                 e1.printStackTrace();
                             }
                             System.out.println("Errore nell'aggiornamento del database " + ERROR_CODE_PAGE + "x07");
-                            String redirectURL = "login.jsp?action=0&message=" +
+                            String redirectURL = "login?action=0&message=" +
                                     new String(Base64.getEncoder().encode(("An error has occurred " +
                                             ERROR_CODE_PAGE + "x07").getBytes()));
                             response.sendRedirect(redirectURL);
@@ -597,7 +597,7 @@
                             e1.printStackTrace();
                         }
                         System.out.println("Errore nell'attivazione della passkey " + ERROR_CODE_PAGE + "x06");
-                        String redirectURL = "login.jsp?action=0&message=" +
+                        String redirectURL = "login?action=0&message=" +
                                 new String(Base64.getEncoder().encode(("An error has occurred " +
                                         ERROR_CODE_PAGE + "x06").getBytes()));
                         response.sendRedirect(redirectURL);
@@ -614,7 +614,7 @@
                     %>
         <div class="form-style-8">
             <h2>Reset Password</h2>
-            <form class="form-style-8" action="sign_in.jsp?action=4" method="POST">
+            <form class="form-style-8" action="sign_in?action=4" method="POST">
                 <input type="email" name="email" placeholder="Enter your email...">
                 <input type="submit" value="Submit">
             </form>
@@ -629,7 +629,7 @@
                     }catch (NullPointerException e){
                         e.printStackTrace();
                         System.out.println("Errore nel parametro " + ERROR_CODE_PAGE + "x08");
-                        String redirectURL = "login.jsp?action=0&message=" +
+                        String redirectURL = "login?action=0&message=" +
                                 new String(Base64.getEncoder().encode(("An error has occurred " +
                                         ERROR_CODE_PAGE + "x08").getBytes()));
                         response.sendRedirect(redirectURL);
@@ -646,7 +646,7 @@
 
                         //Invio la passkey per email
                         String textPass = "To change your password please click on this link: " +
-                                "https://getadvertisment.herokuapp.com/sign_in.jsp?action=5&email="+
+                                "https://getadvertisment.herokuapp.com/sign_in?action=5&email="+
                                 URLEncoder.encode(new String(Base64.getEncoder().encode(email4.getBytes())),"UTF-8")
                                 + "&passkey=" +URLEncoder.encode(new String(Base64.getEncoder().encode(passkeyPass.getBytes())),"UTF-8");
                         if(sendEmail(email4, textPass, "Reset password")){
@@ -671,7 +671,7 @@
                                     e.printStackTrace();
                                 }
                                 System.out.println("Errore nell'aggiornamento del database" + ERROR_CODE_PAGE + "x10");
-                                String redirectURL = "login.jsp?action=0&message=" +
+                                String redirectURL = "login?action=0&message=" +
                                         new String(Base64.getEncoder().encode(("An error has occurred " +
                                                 ERROR_CODE_PAGE + "x10").getBytes()));
                                 response.sendRedirect(redirectURL);
@@ -684,7 +684,7 @@
                                 e.printStackTrace();
                             }
                             System.out.println("Errore nell'invio dell'email" + ERROR_CODE_PAGE + "x09");
-                            String redirectURL = "login.jsp?action=0&message=" +
+                            String redirectURL = "login?action=0&message=" +
                                     new String(Base64.getEncoder().encode(("Cannot send Email " +
                                             ERROR_CODE_PAGE + "x09").getBytes()));
                             response.sendRedirect(redirectURL);
@@ -695,7 +695,7 @@
                         } catch (SQLException e) {
                             e.printStackTrace();
                         }
-                        String redirectURL = "login.jsp?action=0&message=" +
+                        String redirectURL = "login?action=0&message=" +
                                 new String(Base64.getEncoder().encode(("User is not activated").getBytes()));
                         response.sendRedirect(redirectURL);
                     }
@@ -719,7 +719,7 @@
                     }catch (NullPointerException e){
                         e.printStackTrace();
                         System.out.println("Error: " + ERROR_CODE_PAGE + "x11");
-                        String redirectURL = "login.jsp?action=0&message=" +
+                        String redirectURL = "login?action=0&message=" +
                                 new String(Base64.getEncoder().encode(("An error has occurred"  +
                                         ERROR_CODE_PAGE + "x11").getBytes()));
                         response.sendRedirect(redirectURL);
@@ -735,7 +735,7 @@
         <div class="form-style-8">
             <h2>Set new password</h2>
             <p id="messagesp" style="display: none"></p>
-            <form class="form-style-8" action="sign_in.jsp?action=6&email=<%= email5Encoded%>" method="POST">
+            <form class="form-style-8" action="sign_in?action=6&email=<%= email5Encoded%>" method="POST">
                 <input type="password" id="newpassword" name="password" placeholder="Enter the new password...">
                 <input type="password" id="newpasswordconf" name="password_confirm" placeholder="Confirm password...">
                 <input type="submit" value="Confirm" id="sendreq" style="display: none">
@@ -783,7 +783,7 @@
                         }catch (SQLException e){
                             e.printStackTrace();
                         }
-                        String redirectURL = "login.jsp?action=0&message=" +
+                        String redirectURL = "login?action=0&message=" +
                                 new String(Base64.getEncoder().encode(("An error has occurred "+
                                         ERROR_CODE_PAGE + "x12").getBytes()));
                         response.sendRedirect(redirectURL);
@@ -804,13 +804,13 @@
                         newPassword = request.getParameter("password");
                     }catch (NullPointerException e){
                         e.printStackTrace();
-                        String redirectURL = "login.jsp?action=0&message=" +
+                        String redirectURL = "login?action=0&message=" +
                                 new String(Base64.getEncoder().encode(("An error has occurred "+
                                         ERROR_CODE_PAGE + "x13").getBytes()));
                         response.sendRedirect(redirectURL);
                     }catch (NumberFormatException e){
                         e.printStackTrace();
-                        String redirectURL = "login.jsp?action=0&message=" +
+                        String redirectURL = "login?action=0&message=" +
                                 new String(Base64.getEncoder().encode(("An error has occurred "+
                                         ERROR_CODE_PAGE + "x14").getBytes()));
                         response.sendRedirect(redirectURL);
@@ -826,7 +826,7 @@
                         } catch (SQLException e) {
                             e.printStackTrace();
                         }
-                        String redirectURL = "login.jsp?action=0&message=" +
+                        String redirectURL = "login?action=0&message=" +
                                 new String(Base64.getEncoder().encode(("Passsword succesfully changed").getBytes()));
                         response.sendRedirect(redirectURL);
                     }else {
@@ -835,7 +835,7 @@
                         } catch (SQLException e) {
                             e.printStackTrace();
                         }
-                        String redirectURL = "login.jsp?action=0&message=" +
+                        String redirectURL = "login?action=0&message=" +
                                 new String(Base64.getEncoder().encode(("An error has occurred "+
                                         ERROR_CODE_PAGE + "x15").getBytes()));
                         response.sendRedirect(redirectURL);
@@ -843,7 +843,7 @@
                     break;
 
                 default:
-                    response.sendRedirect("login.jsp?action=0");
+                    response.sendRedirect("login?action=0");
                     break;
             }
 

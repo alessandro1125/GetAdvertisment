@@ -8,14 +8,14 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(
         name = "LoginServlet",
-        urlPatterns = {"/login/*"}
+        urlPatterns = {"/sign_in/*"}
 )
-public class Login extends HttpServlet{
+public class SignIn extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp){
         try {
-            RequestDispatcher view = req.getRequestDispatcher("login.jsp");
+            RequestDispatcher view = req.getRequestDispatcher("sign_in.jsp");
             view.forward(req, resp);
         } catch (Exception e) {
             e.printStackTrace();
@@ -26,4 +26,5 @@ public class Login extends HttpServlet{
     protected void doPost(HttpServletRequest req, HttpServletResponse resp){
         doGet(req,resp);
     }
+
 }

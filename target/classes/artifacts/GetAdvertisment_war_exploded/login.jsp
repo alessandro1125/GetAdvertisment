@@ -331,7 +331,7 @@
                 <form action="sign_in.jsp?action=0" method="get">
                     <input type="submit" value="Sign In">
                 </form>
-                <form action="sign_in.jsp?action=3" method="POST">
+                <form action="sign_in.jsp?action=3" method="get">
                     <input type="submit"value="Reset Password">
                 </form>
             </div>
