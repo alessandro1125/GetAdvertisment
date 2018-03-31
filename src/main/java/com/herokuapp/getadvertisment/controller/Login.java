@@ -26,11 +26,6 @@ public class Login extends HttpServlet{
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp){
 
-        try {
-            RequestDispatcher view = req.getRequestDispatcher("login.jsp");
-            view.forward(req,resp);
-        }catch (Exception e){
-            e.printStackTrace();
-        }
+        doGet(req,resp);
     }
 }

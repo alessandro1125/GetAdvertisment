@@ -329,7 +329,7 @@
                     <input type="submit" value="Login">
                 </form>
                 <form action="sign_in.jsp?action=0" method="POST">
-                    <input type="submit" value="Sign In">   
+                    <input type="submit" value="Sign In">
                 </form>
                 </form>
                 <form action="sign_in.jsp?action=3" method="POST">
