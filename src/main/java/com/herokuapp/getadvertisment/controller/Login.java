@@ -14,6 +14,8 @@ public class Login extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp){
+
+        System.out.println(req.getPathInfo());
         try {
             RequestDispatcher view = req.getRequestDispatcher("login.jsp");
             view.forward(req,resp);

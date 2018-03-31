@@ -235,9 +235,6 @@
     </head>
     <body class="form-style-8">
 
-        <%= request.getAttribute("email")%>
-        <%= request.getAttribute("authorization")%>
-
         <%
             //Controllo l'action
             int action = 0;
@@ -331,7 +328,7 @@
                     <input type="password" name="password" placeholder="Your password..."/>
                     <input type="submit" value="Login">
                 </form>
-                <form action="sign_in.jsp?action=0" method="post">
+                <form action="sign_in.jsp?action=0" method="get">
                     <input type="submit" value="Sign In">
                 </form>
                 <form action="sign_in.jsp?action=3" method="POST">
