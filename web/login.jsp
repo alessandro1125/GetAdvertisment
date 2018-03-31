@@ -323,7 +323,7 @@
         <div dir="ltr" style="text-align: center;background-color:white;font-family:sans-serif;font-weight:lighter;color:#595959;">
             <div class="form-style-8">
                 <h2>Login</h2>
-                <form action="login.jsp?action=1" method="post">
+                <form action="Login?action=1" method="get">
                     <input type="email" name="email" placeholder="Your email..."/>
                     <input type="password" name="password" placeholder="Your password..."/>
                     <input type="submit" value="Login">
@@ -476,7 +476,7 @@
              */
             private static void errorOccurred(HttpServletResponse httpSerletResponse, String message){
                 byte[] messageBy = Base64.getEncoder().encode(message.getBytes());
-                String redirectURL = "/login?action=0&message=" + new String(messageBy);
+                String redirectURL = "Login?action=0&message=" + new String(messageBy);
                 try {
                     httpSerletResponse.sendRedirect(redirectURL);
                 } catch (IOException e) {

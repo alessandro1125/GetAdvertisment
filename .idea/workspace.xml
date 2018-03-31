@@ -31,9 +31,11 @@
       <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,15 +60,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="413" column="85" lean-forward="false" selection-start-line="413" selection-start-column="85" selection-end-line="413" selection-end-column="85" />
+            <state relative-caret-position="590">
+              <caret line="478" column="39" lean-forward="false" selection-start-line="478" selection-start-column="39" selection-end-line="478" selection-end-column="39" />
               <folding>
-                <marker date="1522525273300" expanded="true" signature="18929:18968" ph="SELECT email... users" />
-                <marker date="1522525273300" expanded="true" signature="21142:21172" ph="SELECT missi... missingValue" />
-                <marker date="1522525273300" expanded="true" signature="23285:23378" ph="INSERT INTO missingValue... " />
+                <marker date="1522526086865" expanded="true" signature="18923:18962" ph="SELECT email... users" />
+                <marker date="1522526086865" expanded="true" signature="21136:21166" ph="SELECT missi... missingValue" />
+                <marker date="1522526086865" expanded="true" signature="23279:23372" ph="INSERT INTO missingValue... " />
               </folding>
             </state>
           </provider>
@@ -115,7 +117,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uids_dashboard.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uids_dashboard.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/uids_dashboard.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="556">
@@ -153,8 +155,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Home.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Login.java" />
         <option value="$PROJECT_DIR$/web/sign_in.jsp" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/web/uids_dashboard.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
       </list>
     </option>
   </component>
@@ -489,12 +491,12 @@
       <updated>1522502316938</updated>
       <workItem from="1522502320515" duration="2351000" />
       <workItem from="1522516925147" duration="4670000" />
-      <workItem from="1522521611388" duration="4096000" />
+      <workItem from="1522521611388" duration="4416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11117000" />
+    <option name="totallyTimeSpent" value="11437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -554,7 +556,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -608,9 +612,9 @@
         <state relative-caret-position="3451">
           <caret line="203" column="0" lean-forward="true" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
           <folding>
-            <marker date="1522525273300" expanded="true" signature="18929:18968" ph="SELECT email... users" />
-            <marker date="1522525273300" expanded="true" signature="21142:21172" ph="SELECT missi... missingValue" />
-            <marker date="1522525273300" expanded="true" signature="23285:23378" ph="INSERT INTO missingValue... " />
+            <marker date="1522526086865" expanded="true" signature="18923:18962" ph="SELECT email... users" />
+            <marker date="1522526086865" expanded="true" signature="21136:21166" ph="SELECT missi... missingValue" />
+            <marker date="1522526086865" expanded="true" signature="23279:23372" ph="INSERT INTO missingValue... " />
           </folding>
         </state>
       </provider>
@@ -659,9 +663,9 @@
         <state relative-caret-position="289">
           <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
-            <marker date="1522525273300" expanded="true" signature="18929:18968" ph="SELECT email... users" />
-            <marker date="1522525273300" expanded="true" signature="21142:21172" ph="SELECT missi... missingValue" />
-            <marker date="1522525273300" expanded="true" signature="23285:23378" ph="INSERT INTO missingValue... " />
+            <marker date="1522526086865" expanded="true" signature="18923:18962" ph="SELECT email... users" />
+            <marker date="1522526086865" expanded="true" signature="21136:21166" ph="SELECT missi... missingValue" />
+            <marker date="1522526086865" expanded="true" signature="23279:23372" ph="INSERT INTO missingValue... " />
           </folding>
         </state>
       </provider>
@@ -694,7 +698,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -705,7 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Dashboard.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -770,6 +775,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index_exemple.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="16" selection-end-column="47" />
+          <folding>
+            <marker date="1519945811721" expanded="true" signature="699:919" ph="INSERT INTO users... " />
+            <marker date="1519945811721" expanded="true" signature="1738:2371" ph="CREATE TABLE... users" />
+            <marker date="1519945811721" expanded="true" signature="3245:3268" ph="SELECT email... users" />
+            <marker date="1519945811721" expanded="true" signature="4589:4616" ph="DELETE FROM `Users`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/uids_dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="260" column="51" lean-forward="false" selection-start-line="260" selection-start-column="51" selection-end-line="260" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/sign_in.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -786,44 +820,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index_exemple.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="16" selection-end-column="47" />
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <marker date="1519945811721" expanded="true" signature="699:919" ph="INSERT INTO users... " />
-            <marker date="1519945811721" expanded="true" signature="1738:2371" ph="CREATE TABLE... users" />
-            <marker date="1519945811721" expanded="true" signature="3245:3268" ph="SELECT email... users" />
-            <marker date="1519945811721" expanded="true" signature="4589:4616" ph="DELETE FROM `Users`... " />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="413" column="85" lean-forward="false" selection-start-line="413" selection-start-column="85" selection-end-line="413" selection-end-column="85" />
+        <state relative-caret-position="590">
+          <caret line="478" column="39" lean-forward="false" selection-start-line="478" selection-start-column="39" selection-end-line="478" selection-end-column="39" />
           <folding>
-            <marker date="1522525273300" expanded="true" signature="18929:18968" ph="SELECT email... users" />
-            <marker date="1522525273300" expanded="true" signature="21142:21172" ph="SELECT missi... missingValue" />
-            <marker date="1522525273300" expanded="true" signature="23285:23378" ph="INSERT INTO missingValue... " />
+            <marker date="1522526086865" expanded="true" signature="18923:18962" ph="SELECT email... users" />
+            <marker date="1522526086865" expanded="true" signature="21136:21166" ph="SELECT missi... missingValue" />
+            <marker date="1522526086865" expanded="true" signature="23279:23372" ph="INSERT INTO missingValue... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/uids_dashboard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="260" column="51" lean-forward="false" selection-start-line="260" selection-start-column="51" selection-end-line="260" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
