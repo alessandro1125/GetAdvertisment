@@ -323,13 +323,13 @@
         <div dir="ltr" style="text-align: center;background-color:white;font-family:sans-serif;font-weight:lighter;color:#595959;">
             <div class="form-style-8">
                 <h2>Login</h2>
-                <form action="Login?action=1" method="get">
+                <form action="Login?action=1" method="post">
                     <input type="email" name="email" placeholder="Your email..."/>
                     <input type="password" name="password" placeholder="Your password..."/>
                     <input type="submit" value="Login">
                 </form>
                 <form action="sign_in.jsp?action=0" method="POST">
-                    <input type="submit" value="Sign In">
+                    <input type="submit" value="Sign In">   
                 </form>
                 </form>
                 <form action="sign_in.jsp?action=3" method="POST">
