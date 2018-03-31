@@ -629,7 +629,7 @@
                     break;
 
                 default:
-                    response.sendRedirect("index.jsp?action=0");
+                    response.sendRedirect("login.jsp?action=0");
                     break;
             }
 
