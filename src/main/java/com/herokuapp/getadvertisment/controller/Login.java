@@ -7,10 +7,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(
-        name = "LoginServlet",
-        urlPatterns = {"/"}
+        name = "Login",
+        urlPatterns = {"/login/*"}
 )
-public class Controller extends HttpServlet{
+public class Login extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp){

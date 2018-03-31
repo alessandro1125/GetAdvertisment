@@ -6,6 +6,7 @@
 <%@ page import="java.util.Base64" %>
 <%@ page import="java.io.IOException" %>
 <%@ page import="java.util.GregorianCalendar" %>
+<%@ page import="sun.misc.Request" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE HTML>
 <html lang="it" dir="ltr">
@@ -195,10 +196,17 @@
                                     }
 
                                     //Redirect nella area personale (redirect senza URL)
+                                    HttpSession session = request.getSession();
+                                    session.setAttribute("email", email);
+                                    session.setAttribute("password", password);
                                     RequestDispatcher dispatcher;
-                                    dispatcher = request.getRequestDispatcher("uids_dashboard.jsp?email=" + email +
-                                            "&password=" + password);
+                                    dispatcher = request.getRequestDispatcher("uids_dashboard.jsp");
                                     dispatcher.forward(request, response);
+
+                                    /*Send redirect with attributes
+                                    HttpSession session = request.getSession();
+                                    session.setAttribute("helloWorld", "Hello world");
+                                    response.sendRedirect("/dashboard");*/
                                     break;
 
                                 case 1:
@@ -259,7 +267,7 @@
              */
             private static void errorOccurred(HttpServletResponse httpSerletResponse, String message){
                 byte[] messageBy = Base64.getEncoder().encode(message.getBytes());
-                String redirectURL = "login.jsp?action=0&message=" + new String(messageBy);
+                String redirectURL = "/?action=0&message=" + new String(messageBy);
                 try {
                     httpSerletResponse.sendRedirect(redirectURL);
                 } catch (IOException e) {
