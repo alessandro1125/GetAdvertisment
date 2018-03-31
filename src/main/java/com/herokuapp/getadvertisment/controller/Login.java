@@ -22,7 +22,8 @@ public class Login extends HttpServlet{
             e.printStackTrace();
         }
     }
-    
+
+    @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp){
         System.out.println("Post method called");
         doGet(req,resp);
