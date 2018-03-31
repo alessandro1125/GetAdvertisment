@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(
-        name = "LoginServlet",
+        name = "SignInServlet",
         urlPatterns = {"/sign_in/*"}
 )
 public class SignIn extends HttpServlet{
