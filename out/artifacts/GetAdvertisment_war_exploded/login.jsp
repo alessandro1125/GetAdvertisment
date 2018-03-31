@@ -328,10 +328,10 @@
                     <input type="password" name="password" placeholder="Your password..."/>
                     <input type="submit" value="Login">
                 </form>
-                <form action="${pageContext.request.contextPath}/sign_in?action=0" method="get">
+                <form action="${pageContext.request.contextPath}/sign_in?action=0" method="post">
                     <input type="submit" value="Sign In">
                 </form>
-                <form action="${pageContext.request.contextPath}/sign_in?action=3" method="get">
+                <form action="${pageContext.request.contextPath}/sign_in?action=3" method="post">
                     <input type="submit"value="Reset Password">
                 </form>
             </div>
