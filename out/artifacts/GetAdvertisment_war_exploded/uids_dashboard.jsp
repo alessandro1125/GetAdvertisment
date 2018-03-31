@@ -258,7 +258,7 @@
                     document.cookie = "email"+'=; Max-Age=-99999999;';
                     document.cookie = "password"+'=; Max-Age=-99999999;';
                     //Log Out
-                    window.location.replace("login.jsp?action=0");
+                    window.location.replace("/");
                 }
             </script>
         </div>

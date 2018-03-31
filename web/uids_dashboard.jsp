@@ -232,7 +232,7 @@
     </head>
     <body style="position: absolute; min-width: 1000px; width: 100%">
         <%
-            if (((String)request.getAttribute("authorization")).equals("authorize")){
+            if (((String)request.getAttribute("authorization")).equals("authorized")){
 
         %>
         <div id="toolbar" class="form-style-8" style="font-family: 'Open Sans Condensed', sans-serif;
@@ -258,7 +258,7 @@
                     document.cookie = "email"+'=; Max-Age=-99999999;';
                     document.cookie = "password"+'=; Max-Age=-99999999;';
                     //Log Out
-                    window.location.replace("login.jsp?action=0");
+                    window.location.replace("/");
                 }
             </script>
         </div>
