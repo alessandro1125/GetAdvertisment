@@ -15,13 +15,23 @@ public class Login extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp){
 
-        System.out.println(req.getPathInfo());
-        try {
-            RequestDispatcher view = req.getRequestDispatcher("login.jsp");
-            view.forward(req,resp);
-        }catch (Exception e){
-            e.printStackTrace();
+        String[] path = req.getPathInfo().split("/");
+        if (path[0].equals("signIn")) {
+            try {
+                RequestDispatcher view = req.getRequestDispatcher("sign_in.jsp");
+                view.forward(req, resp);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else {
+            try {
+                RequestDispatcher view = req.getRequestDispatcher("login.jsp");
+                view.forward(req, resp);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
+
     }
 
     @Override

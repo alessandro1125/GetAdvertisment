@@ -328,7 +328,7 @@
                     <input type="password" name="password" placeholder="Your password..."/>
                     <input type="submit" value="Login">
                 </form>
-                <form action="sign_in.jsp?action=0" method="post">
+                <form action="sign_in.jsp?action=0" method="get">
                     <input type="submit" value="Sign In">
                 </form>
                 <form action="sign_in.jsp?action=3" method="POST">
