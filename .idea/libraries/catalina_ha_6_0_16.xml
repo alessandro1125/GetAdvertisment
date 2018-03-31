@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="catalina-ha-6.0.16">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/repo/org/apache/tomcat/catalina-ha/6.0.16/catalina-ha-6.0.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

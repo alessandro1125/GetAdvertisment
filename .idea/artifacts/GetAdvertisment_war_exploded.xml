@@ -2,10 +2,10 @@
   <artifact type="exploded-war" build-on-make="true" name="GetAdvertisment:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="GetAdvertisment/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="GetAdvertisment" />
+          <element id="module-output" name="web" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.23" />
@@ -60,8 +60,15 @@
           <element id="library" level="project" name="Maven: org.apache.tomcat:tribes:6.0.16" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:catalina:6.0.16" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:annotations-api:6.0.16" />
+          <element id="library" level="project" name="Maven: commons-digester:commons-digester:2.1" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
+          <element id="library" level="project" name="Maven: com.assetx:assetx-utils:1.0" />
+          <element id="library" level="project" name="Maven: javax:javaee-api:7.0" />
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.5.0" />
         </element>
+        <element id="module-output" name="GetAdvertisment" />
       </element>
+      <element id="javaee-facet-resources" facet="GetAdvertisment/web/Web" />
     </root>
   </artifact>
 </component>

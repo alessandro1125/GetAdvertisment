@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="assetx-utils-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/repo/com/assetx/assetx-utils/1.0/assetx-utils-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

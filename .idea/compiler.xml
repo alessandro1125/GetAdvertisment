@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="assetx-getadvertisment" />
         <module name="GetAdvertisment" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="assetx-getadvertisment" target="1.8" />
       <module name="GetAdvertisment" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -1,0 +1,63 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/coyote-6.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/juli-6.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/javax.inject-2.3.0-b05.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-servlet-api-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/google-http-client-1.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/guava-jdk5-17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/postgresql-9.4.1208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/catalina-ha-6.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/hk2-utils-2.3.0-b05.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/google-oauth-client-1.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-embed-jasper-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tribes-6.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/hk2-locator-2.3.0-b05.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/servlet-api-6.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-el-api-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-jasper-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-embed-el-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/catalina-6.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/google-api-client-1.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/javax.ws.rs-api-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-jasper-el-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/httpclient-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/jersey-common-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-juli-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-jsp-api-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-annotations-api-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/jersey-container-servlet-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/hk2-api-2.3.0-b05.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/org.json-chargebee-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-util-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/mail-1.4.6-rc1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/annotations-api-6.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/commons-digester-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/jackson-core-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/jersey-container-servlet-core-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/javassist-3.18.1-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/validation-api-1.1.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/assetx-utils-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/jsr305-1.3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/jersey-client-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/osgi-resource-locator-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/aopalliance-repackaged-2.3.0-b05.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/ecj-3.12.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/google-http-client-jackson2-1.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-embed-core-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/jersey-guava-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/httpcore-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/commons-codec-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/jersey-server-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-util-scan-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/GetAdvertisment_war_exploded/WEB-INF/lib/tomcat-api-8.5.23.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

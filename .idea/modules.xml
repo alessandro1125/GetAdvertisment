@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GetAdvertisment.iml" filepath="$PROJECT_DIR$/GetAdvertisment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assetx-getadvertisment.iml" filepath="$PROJECT_DIR$/assetx-getadvertisment.iml" />
     </modules>
   </component>
 </project>
