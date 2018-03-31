@@ -267,7 +267,7 @@
              */
             private static void errorOccurred(HttpServletResponse httpSerletResponse, String message){
                 byte[] messageBy = Base64.getEncoder().encode(message.getBytes());
-                String redirectURL = "/?action=0&message=" + new String(messageBy);
+                String redirectURL = "/login?action=0&message=" + new String(messageBy);
                 try {
                     httpSerletResponse.sendRedirect(redirectURL);
                 } catch (IOException e) {
