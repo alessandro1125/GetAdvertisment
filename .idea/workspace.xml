@@ -75,24 +75,42 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="412" column="71" lean-forward="false" selection-start-line="412" selection-start-column="58" selection-end-line="412" selection-end-column="71" />
+            <state relative-caret-position="604">
+              <caret line="383" column="33" lean-forward="false" selection-start-line="383" selection-start-column="33" selection-end-line="383" selection-end-column="33" />
               <folding>
-                <marker date="1522538735548" expanded="true" signature="18997:19036" ph="SELECT email... users" />
-                <marker date="1522538735548" expanded="true" signature="21210:21240" ph="SELECT missi... missingValue" />
-                <marker date="1522538735548" expanded="true" signature="23353:23446" ph="INSERT INTO missingValue... " />
+                <marker date="1522615927030" expanded="true" signature="18997:19036" ph="SELECT email... users" />
+                <marker date="1522615927030" expanded="true" signature="21249:21279" ph="SELECT missi... missingValue" />
+                <marker date="1522615927030" expanded="true" signature="23392:23485" ph="INSERT INTO missingValue... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uids_dashboard.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uids_dashboard.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/uids_dashboard.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="495">
+              <caret line="425" column="35" lean-forward="true" selection-start-line="425" selection-start-column="35" selection-end-line="425" selection-end-column="35" />
               <folding>
-                <marker date="1522608965166" expanded="true" signature="14826:14865" ph="SELECT email... users" />
+                <marker date="1522615876261" expanded="true" signature="14826:14865" ph="SELECT email... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_in.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/sign_in.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="997" column="21" lean-forward="false" selection-start-line="997" selection-start-column="21" selection-end-line="997" selection-end-column="21" />
+              <folding>
+                <marker date="1522616129825" expanded="true" signature="41189:41273" ph="UPDATE users... " />
+                <marker date="1522616129825" expanded="true" signature="42036:42106" ph="UPDATE users... " />
+                <marker date="1522616129825" expanded="true" signature="43838:43931" ph="INSERT INTO missingValue... " />
+                <marker date="1522616129825" expanded="true" signature="44643:44711" ph="UPDATE users... " />
+                <marker date="1522616129825" expanded="true" signature="45546:45598" ph="SELECT passk... users" />
+                <marker date="1522616129825" expanded="true" signature="46797:46820" ph="SELECT email... users" />
+                <marker date="1522616129825" expanded="true" signature="47818:47848" ph="SELECT email... users" />
               </folding>
             </state>
           </provider>
@@ -154,11 +172,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Dashboard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Login.java" />
-        <option value="$PROJECT_DIR$/web/sign_in.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/SignIn.java" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Home.java" />
         <option value="$PROJECT_DIR$/web/uids_dashboard.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/web/sign_in.jsp" />
       </list>
     </option>
   </component>
@@ -203,7 +221,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-673" />
     <option name="y" value="136" />
     <option name="width" value="1612" />
@@ -558,15 +576,15 @@
       <workItem from="1522569616287" duration="116000" />
       <workItem from="1522569775469" duration="165000" />
       <workItem from="1522571062100" duration="1860000" />
-      <workItem from="1522607739785" duration="1353000" />
+      <workItem from="1522607739785" duration="3048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20959000" />
+    <option name="totallyTimeSpent" value="22654000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -894,13 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/sign_in.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="651" column="49" lean-forward="false" selection-start-line="651" selection-start-column="49" selection-end-line="651" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -922,18 +933,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="412" column="71" lean-forward="false" selection-start-line="412" selection-start-column="58" selection-end-line="412" selection-end-column="71" />
-          <folding>
-            <marker date="1522538735548" expanded="true" signature="18997:19036" ph="SELECT email... users" />
-            <marker date="1522538735548" expanded="true" signature="21210:21240" ph="SELECT missi... missingValue" />
-            <marker date="1522538735548" expanded="true" signature="23353:23446" ph="INSERT INTO missingValue... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,12 +975,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="383" column="33" lean-forward="false" selection-start-line="383" selection-start-column="33" selection-end-line="383" selection-end-column="33" />
+          <folding>
+            <marker date="1522615927030" expanded="true" signature="18997:19036" ph="SELECT email... users" />
+            <marker date="1522615927030" expanded="true" signature="21249:21279" ph="SELECT missi... missingValue" />
+            <marker date="1522615927030" expanded="true" signature="23392:23485" ph="INSERT INTO missingValue... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/uids_dashboard.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="495">
+          <caret line="425" column="35" lean-forward="true" selection-start-line="425" selection-start-column="35" selection-end-line="425" selection-end-column="35" />
           <folding>
-            <marker date="1522608965166" expanded="true" signature="14826:14865" ph="SELECT email... users" />
+            <marker date="1522615876261" expanded="true" signature="14826:14865" ph="SELECT email... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sign_in.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="997" column="21" lean-forward="false" selection-start-line="997" selection-start-column="21" selection-end-line="997" selection-end-column="21" />
+          <folding>
+            <marker date="1522616129825" expanded="true" signature="41189:41273" ph="UPDATE users... " />
+            <marker date="1522616129825" expanded="true" signature="42036:42106" ph="UPDATE users... " />
+            <marker date="1522616129825" expanded="true" signature="43838:43931" ph="INSERT INTO missingValue... " />
+            <marker date="1522616129825" expanded="true" signature="44643:44711" ph="UPDATE users... " />
+            <marker date="1522616129825" expanded="true" signature="45546:45598" ph="SELECT passk... users" />
+            <marker date="1522616129825" expanded="true" signature="46797:46820" ph="SELECT email... users" />
+            <marker date="1522616129825" expanded="true" signature="47818:47848" ph="SELECT email... users" />
           </folding>
         </state>
       </provider>
