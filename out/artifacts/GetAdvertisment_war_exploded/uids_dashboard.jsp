@@ -1,4 +1,9 @@
-<%@ page import="java.util.GregorianCalendar" %><%--
+<%@ page import="java.util.GregorianCalendar" %>
+<%@ page import="java.io.IOException" %>
+<%@ page import="java.util.Base64" %>
+<%@ page import="java.net.URISyntaxException" %>
+<%@ page import="java.sql.*" %>
+<%@ page import="java.net.URI" %><%--
   Created by IntelliJ IDEA.
   User: aless
   Date: 28/02/2018
@@ -9,6 +14,14 @@
 <html>
     <head>
         <%
+            //Controllo autenticazione
+            if (!authenticationParser(request, response, (String)request.getAttribute("email")
+                        , (String) request.getAttribute("password"),0)){
+                //Non sono autenticato
+                String redirectURL = "/";
+                response.sendRedirect(redirectURL);
+            }
+
             String time = GregorianCalendar.getInstance().getTime().toString();
         %>
         <title>UID dashboard</title>
@@ -271,4 +284,188 @@
 
         %>
     </body>
+
+    <%!
+
+
+        /**
+         *
+         * @param request HttpServletRequest
+         * @param response HttpServletResponse
+         * @param email String
+         * @param action int
+         * @param password String
+         */
+        private static boolean authenticationParser(HttpServletRequest request, HttpServletResponse response,
+                                                 String email, String password, int action){
+
+            try {
+                //Mi connetto al db
+                Connection connection;
+                connection = getConnectionHeroku();
+
+                if (connection != null) {
+                    if (email != null && password != null) {
+
+                        //Cerco la corrispondenza nella tabella users
+
+                        switch (authenticateUser(connection, email, password)) {
+                            case 0:
+                                //Login succesfully done
+
+                                //Salvo i cookie se action = 1
+                                if (action == 1) {
+                                    try {
+                                        Cookie emailCk = new Cookie("email", email);
+                                        emailCk.setMaxAge(60 * 60 * 24 * 360);
+                                        Cookie passwordCk = new Cookie("password", password);
+                                        passwordCk.setMaxAge(60 * 60 * 24 * 360);
+
+                                        response.addCookie(emailCk);
+                                        response.addCookie(passwordCk);
+                                    } catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+
+                                return true;
+
+                            case 1:
+                                //Email Wrong
+                                System.out.println("User email not found");
+                                //Invio un messaggio all'utente
+                                errorOccurred(response, "User doesn't exist");
+                                break;
+
+                            case 2:
+                                //Password wrong
+                                System.out.println("User password not correct");
+                                //Invio un messaggio all'utente
+                                errorOccurred(response, "Password wrong");
+                                break;
+
+                            case 3:
+                                //Non attivo
+                                System.out.println("L'utente non è attivo");
+                                //Invio un messaggio all'utente
+                                errorOccurred(response, "User non activated");
+                                break;
+
+                            default:
+                                break;
+
+                        }
+
+                    } else {
+                        //Se uno e entrambi i cambi sono nulli
+                        System.out.println("Parameters are not valid");
+                        //Invio un messaggio all'utente
+                        errorOccurred(response, "Enter valids parameters");
+                    }
+
+                    try {
+                        connection.close();
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+
+                } else {
+                    //Se fallisce la connessione al database
+                    System.out.println("Unable to connect to database");
+                    //Invio un messaggio all'utente
+                    errorOccurred(response, "An error has occurred");
+                }
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+            return false;
+        }
+
+        /**
+         *
+         * @param httpSerletResponse HttpServletResponse
+         * @param message String
+         */
+        private static void errorOccurred(HttpServletResponse httpSerletResponse, String message){
+            byte[] messageBy = Base64.getEncoder().encode(message.getBytes());
+            String redirectURL = "login?action=0&message=" + new String(messageBy);
+            try {
+                httpSerletResponse.sendRedirect(redirectURL);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        /**
+         *
+         * @param connection Connection
+         * @param email String
+         * @param password String
+         * @return int
+         */
+        private static int authenticateUser(Connection connection, String email, String password){
+
+            //Faccio una chiamata al db
+            Statement statement;
+            String query;
+
+            query = "SELECT email,password,attivo FROM users";
+
+            try{
+                statement = connection.createStatement();
+                ResultSet resultSet = statement.executeQuery(query);
+
+                boolean emailFounded = false;
+                boolean passwordFounded = false;
+                boolean attivato = false;
+                while (resultSet.next()){
+                    //Controllo corrispondenze
+                    if (resultSet.getString("email").equals(email))
+                        emailFounded = true;
+                    if (emailFounded && resultSet.getString("password").equals(password))
+                        passwordFounded = true;
+                    if (emailFounded && passwordFounded && resultSet.getString("attivo").equals("1"))
+                        attivato = true;
+
+                }
+                //Genero output
+                if (!emailFounded)
+                    return 1;
+                if (!passwordFounded)
+                    return 2;
+                if (!attivato)
+                    return 3;
+                return 0;
+
+
+            }catch (SQLException sqle){
+                sqle.printStackTrace();
+                return -1;
+            }
+        }
+
+        /**
+         * Metodo per la connessione al database locale Heroku
+         * @return Connection
+         */
+        private static Connection getConnectionHeroku(){
+            try {
+                URI dbUri;
+                dbUri = new URI(System.getenv("DATABASE_URL"));
+
+                String username = dbUri.getUserInfo().split(":")[0];
+                String password = dbUri.getUserInfo().split(":")[1];
+                String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + ':' + dbUri.getPort() + dbUri.getPath();
+
+                return DriverManager.getConnection(dbUrl, username, password);
+
+            } catch (URISyntaxException e) {
+                e.printStackTrace();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+    %>
 </html>
