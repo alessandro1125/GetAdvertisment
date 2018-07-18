@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(
         name = "BeaconDoc",
-        urlPatterns = {"/beacon_documentation/"}
+        urlPatterns = {"/beacon_documentation/*"}
 )
 public class AccesBeconDoc extends HttpServlet {
 
