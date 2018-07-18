@@ -16,8 +16,8 @@ public class AccesBeconDoc extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp){
 
         try {
-            RequestDispatcher view = req.getRequestDispatcher("BeaconTraker/index.html");
-            view.forward(req,resp);
+            String redirectURL = "BeaconTraker/index.html";
+            resp.sendRedirect(redirectURL);
         }catch (Exception e){
             e.printStackTrace();
         }

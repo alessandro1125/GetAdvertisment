@@ -7,7 +7,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be543ff3-0247-4dd3-93ef-f076c05e760f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/AccesBeconDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/AccesBeconDoc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/._.DS_Store" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/._.DS_Store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/activities/._.DS_Store" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/activities/._.DS_Store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/activities/._Activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/activities/._Activities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/activities/Activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/activities/Activities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/activities/MainActivity.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/activities/MainActivity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/broadcast/._.DS_Store" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/broadcast/._.DS_Store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/broadcast/._BroadcastRestarter.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/broadcast/._BroadcastRestarter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/broadcast/Broadcast.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/broadcast/Broadcast.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/broadcast/BroadcastRestarter.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/broadcast/BroadcastRestarter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/database/._.DS_Store" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/database/._.DS_Store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/database/Database.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/database/Database.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/database/DbUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/database/DbUtils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/database/SQLOperations.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/database/SQLOperations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/location/._.DS_Store" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/location/._.DS_Store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/location/._Location.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/location/._Location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/location/Location.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/location/Location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/location/LocationConsumer.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/location/LocationConsumer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scanner/._.DS_Store" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/scanner/._.DS_Store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scanner/._BeaconListHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/scanner/._BeaconListHandler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scanner/._BleScanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/scanner/._BleScanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scanner/._BleScanningService.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/scanner/._BleScanningService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scanner/BeaconListHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/scanner/BeaconListHandler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scanner/BleScanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/scanner/BleScanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scanner/BleScanningService.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/scanner/BleScanningService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scanner/IBeacon.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/scanner/IBeacon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scanner/Scanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/scanner/Scanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/._.DS_Store" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/._.DS_Store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/GoogleApiClientUtils.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/GoogleApiClientUtils.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/activities.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/activities.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/beaconListHandler.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/beaconListHandler.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/bleScanner.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/bleScanner.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/bleScanningService.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/bleScanningService.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/broadcast.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/broadcast.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/broadcastRestarter.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/broadcastRestarter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/database.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/database.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/dbUtils.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/dbUtils.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/iBeacon.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/iBeacon.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/location.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/location.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/locationConsumer.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/locationConsumer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/mainActivity.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/mainActivity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/notificat.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/notificat.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/scanner.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/scanner.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/sqlOperations.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/sqlOperations.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/utils.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/src/utils.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/utils/._.DS_Store" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/utils/._.DS_Store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/utils/GoogleApiClientUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/utils/GoogleApiClientUtils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/utils/Notifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/utils/Notifications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/utils/Utils.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BeaconTraker/utils/Utils.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,11 +82,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Home.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="270">
+              <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccesBeconDoc.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AccesBeconDoc.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/AccesBeconDoc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            <state relative-caret-position="270">
+              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,7 +155,7 @@
         <entry file="file://$PROJECT_DIR$/web/index_exemple.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="47" selection-start-line="15" selection-start-column="12" selection-end-line="16" selection-end-column="47" />
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -140,8 +190,8 @@
         <option value="$PROJECT_DIR$/web/uids_dashboard.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/web/sign_in.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/AccesBeconDoc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Home.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/AccesBeconDoc.java" />
       </list>
     </option>
   </component>
@@ -284,6 +334,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/BeaconTraker" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="G:\Sync\Heroku Projects\GitHub\GetAdvertisment\repo\assetx\assetx\1.0" />
     </key>
@@ -453,12 +504,12 @@
       <workItem from="1522569775469" duration="165000" />
       <workItem from="1522571062100" duration="1860000" />
       <workItem from="1522607739785" duration="3183000" />
-      <workItem from="1531937324800" duration="1724000" />
+      <workItem from="1531937324800" duration="1937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24513000" />
+    <option name="totallyTimeSpent" value="24726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="23" width="1865" height="1057" extended-state="0" />
@@ -728,13 +779,6 @@
     <entry file="file://$PROJECT_DIR$/target/classes/artifacts/GetAdvertisment_war_exploded/sign_in.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index_exemple.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="47" selection-start-line="15" selection-start-column="12" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/SignIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -770,7 +814,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/index.md">
+    <entry file="file://$PROJECT_DIR$/web/BeaconTraker/src/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -790,16 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/AccesBeconDoc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -809,8 +843,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="270">
+          <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index_exemple.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herokuapp/getadvertisment/controller/AccesBeconDoc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
